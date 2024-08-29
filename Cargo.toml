@@ -1,0 +1,11 @@
+[package]
+name = "dmalibrary"
+version = "0.1.0"
+edition = "2021"
+authors = ["Stipulations"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Stipulations/DMALibrary"
+description = "A Rust crate that makes it easy to work with DMA cards for memory forensics."
+
+[dependencies]
+memprocfs = "5.11.1"
